@@ -8,6 +8,8 @@ Este es el link del [repositorio](https://github.com/crltsnch/Tema-1)
 ***
 <h2>¿De qué trata esta tarea?</h2>
 Debíamos resolver varios ejercicios.
+
+
 1)
 ```matriz = [
  [1, 1, 1, 3],
