@@ -19,5 +19,3 @@ matriz = [
 matriz[1][-1] = sum(matriz[1][:-1])
 matriz[3][-1] = sum(matriz[3][:-1])
 print(matriz)
-
-#Ejercicio 2: Utilizando operadores lógicos
