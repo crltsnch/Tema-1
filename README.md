@@ -18,8 +18,8 @@ Debíamos resolver varios ejercicios.
 
 matriz[1][-1] = sum(matriz[1][:-1])
 matriz[3][-1] = sum(matriz[3][:-1])
-print(matriz)
-```
+print(matriz)```
+
 
 2)
 ```cadenaDeTexto = input("Escriba una cadena de texto: ")
@@ -28,13 +28,28 @@ if len(cadenaDeTexto) >= 3 and len(cadenaDeTexto)<10:
 else:
     print(False)```
 
+
 3)
 ```print(list(range(0, 11)))
 print(list(range(-10, 0)))
 print(list(range(0, 21, 2)))
 print(list(range(-19, 0, 2)))
-print(list(range(0, 51, 5)))
-```
+print(list(range(0, 51, 5)))```
+
 
 4)
+```import sys
+from pyparsing import col
 
+if len(sys.argv) == 3:
+    filas = int(sys.argv[1])
+    columnas = int(sys.argv[2])
+    if filas<1 or filas>9 or columnas>9:
+        print("Error")
+    else:
+        for i in range(filas):
+            print(" ")
+            for c in range(columnas):
+                print(" * ", end='')
+else:
+    print("Error")```
