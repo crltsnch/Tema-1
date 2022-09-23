@@ -9,3 +9,5 @@
 # Intenta deducir dónde y cómo añadir otra instruccion print() para dibujar una tabla.
 
 import sys
+from pyparsing import col
+
