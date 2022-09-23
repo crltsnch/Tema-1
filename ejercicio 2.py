@@ -6,3 +6,4 @@ if len(cadenaDeTexto) >= 3 and len(cadenaDeTexto)<10:
     print(True)
 else:
     print(False)
+    
