@@ -54,4 +54,5 @@ if len(sys.argv) == 3:
             for c in range(columnas):
                 print(" * ", end='')
 else:
-    print("Error")```
+    print("Error")
+    ```
