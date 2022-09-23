@@ -57,6 +57,3 @@ else:
     print("Error")
 
 
-5)
-<img width="1418" alt="Captura de pantalla 2022-09-23 a las 21 58 32" src="https://user-images.githubusercontent.com/91721777/192050028-76e98b5c-8762-47aa-b9ea-06b2d12a6c21.png">
-
