@@ -9,8 +9,7 @@ Este es el link del [repositorio](https://github.com/crltsnch/Tema-1)
 <h2>¿De qué trata esta tarea?</h2>
 Debíamos resolver varios ejercicios.
 1)
-```
-matriz = [
+```matriz = [
  [1, 1, 1, 3],
  [2, 2, 2, 7],
  [3, 3, 3, 9],
@@ -23,17 +22,14 @@ print(matriz)
 ```
 
 2)
-```
-cadenaDeTexto = input("Escriba una cadena de texto: ")
+```cadenaDeTexto = input("Escriba una cadena de texto: ")
 if len(cadenaDeTexto) >= 3 and len(cadenaDeTexto)<10:
     print(True)
 else:
-    print(False)
-```
+    print(False)```
 
 3)
-```
-print(list(range(0, 11)))
+```print(list(range(0, 11)))
 print(list(range(-10, 0)))
 print(list(range(0, 21, 2)))
 print(list(range(-19, 0, 2)))
